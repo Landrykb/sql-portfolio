@@ -1,7 +1,3 @@
--- Hidden Inventory Alert
--- Domain: Business
--- My solution query
-
 
 WITH ProductSales AS (
   SELECT 
@@ -47,6 +43,5 @@ CASE
 END AS quality_status
   FROM Combined
 ORDER BY return_rate_pct DESC;
-
 
 
